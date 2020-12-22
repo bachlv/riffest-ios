@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>43216185923-maqe78q31d3vkjjvl8m8c868rkh80ndr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.43216185923-maqe78q31d3vkjjvl8m8c868rkh80ndr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDQJlygAk8LEmqbjD1VYONHn-ON21WbQjg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>43216185923</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>vn.bachle.Riffest</string>
+	<key>PROJECT_ID</key>
+	<string>riffest-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>riffest-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:43216185923:ios:d735c3700280cb2f3102f6</string>
+	<key>DATABASE_URL</key>
+	<string>https://riffest-ios.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F9DE914C-7B31-4748-B9C0-5D9AF7EEB20D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D44443ED-8329-4CE3-8792-106DD76A1182"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Riffest/Controllers/Home/CustomTabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "setupView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D44443ED-8329-4CE3-8792-106DD76A1182 - e8ca4962bcac9c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Riffest.CustomTabBarController.(setupView in _041BF3CB323EFAE420C83DAD51D8E3ED)() -&gt; ()"
+                  moduleName = "Riffest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bach/Projects/riffest-ios/Riffest/Controllers/Home/CustomTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "11245">
+               </Location>
+               <Location
+                  uuid = "D44443ED-8329-4CE3-8792-106DD76A1182 - e8ca4962bcac9c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Riffest.CustomTabBarController.(setupView in _041BF3CB323EFAE420C83DAD51D8E3ED)() -&gt; ()"
+                  moduleName = "Riffest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bach/Projects/riffest-ios/Riffest/Controllers/Home/CustomTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "11510">
+               </Location>
+               <Location
+                  uuid = "D44443ED-8329-4CE3-8792-106DD76A1182 - e8ca4962bcac9c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Riffest.CustomTabBarController.(setupView in _041BF3CB323EFAE420C83DAD51D8E3ED)() -&gt; ()"
+                  moduleName = "Riffest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bach/Projects/riffest-ios/Riffest/Controllers/Home/CustomTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "12085">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1E57DFF-FBB4-4214-8B09-CFD470A49B58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Riffest/Controllers/Home/CustomTabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "setupView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
