@@ -87,7 +87,7 @@ class PlayerController: UITableViewController, PlayerMusicCellCellDelegate{
         label.animationCurve = .easeInOut
         label.speed = .duration(8.0)
         label.textAlignment = .center
-        label.font = AppStateHelper.shared.defaultFontRegular(size:17)
+        label.font = AppStateHelper.shared.defaultFontBold(size:18)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -96,7 +96,7 @@ class PlayerController: UITableViewController, PlayerMusicCellCellDelegate{
         let label = UILabel()
         label.textColor = .gray
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = AppStateHelper.shared.defaultFontRegular(size:16)
+        label.font = AppStateHelper.shared.defaultFontRegular(size:18)
         label.textAlignment = .center
         return label
     }()
@@ -185,18 +185,18 @@ class PlayerController: UITableViewController, PlayerMusicCellCellDelegate{
         downButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
         
         CoverView.centerXAnchor.constraint(equalTo: subView.centerXAnchor).isActive = true
-        CoverView.topAnchor.constraint(equalTo: downButton.topAnchor, constant: 40).isActive = true
+        CoverView.topAnchor.constraint(equalTo: downButton.topAnchor, constant: 35).isActive = true
         CoverView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width - 30).isActive = true
         CoverView.heightAnchor.constraint(equalToConstant: 250).isActive = true
         
         ImageView.centerXAnchor.constraint(equalTo: CoverView.centerXAnchor).isActive = true
         ImageView.topAnchor.constraint(equalTo: CoverView.topAnchor).isActive = true
-        ImageView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width - 30).isActive = true
-        ImageView.heightAnchor.constraint(equalToConstant: 250).isActive = true
+        ImageView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width - 50).isActive = true
+        ImageView.heightAnchor.constraint(equalToConstant: UIScreen.main.bounds.width - 50).isActive = true
         
         subViewProgress.translatesAutoresizingMaskIntoConstraints = false
         subViewProgress.centerXAnchor.constraint(equalTo: subView.centerXAnchor).isActive = true
-        subViewProgress.bottomAnchor.constraint(equalTo: self.ImageView.bottomAnchor, constant: 45).isActive = true
+        subViewProgress.bottomAnchor.constraint(equalTo: self.ImageView.bottomAnchor, constant: 55).isActive = true
         subViewProgress.widthAnchor.constraint(equalToConstant: self.view.bounds.width - 40).isActive = true
         subViewProgress.heightAnchor.constraint(equalToConstant: 20).isActive = true
         subViewProgress.addSubview(progressView)
@@ -232,7 +232,7 @@ class PlayerController: UITableViewController, PlayerMusicCellCellDelegate{
         shuffleButton.heightAnchor.constraint(equalToConstant: 35).isActive = true
         shuffleButton.leftAnchor.constraint(equalTo: subView.leftAnchor, constant: 20).isActive = true
         
-        playerButton.bottomAnchor.constraint(equalTo: self.subViewProgress.bottomAnchor, constant: 30).isActive = true
+        playerButton.bottomAnchor.constraint(equalTo: self.CurrentLabel.bottomAnchor,constant: 35).isActive = true
         playerButton.centerXAnchor.constraint(equalTo: self.subView.centerXAnchor).isActive = true
         playerButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
         playerButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
@@ -240,9 +240,9 @@ class PlayerController: UITableViewController, PlayerMusicCellCellDelegate{
         nextButton.rightAnchor.constraint(equalTo: self.playerButton.rightAnchor,constant:  60).isActive = true
         nextButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
         nextButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        nextButton.bottomAnchor.constraint(equalTo: self.subViewProgress.bottomAnchor, constant: 30).isActive = true
-        prveButton.bottomAnchor.constraint(equalTo: self.subViewProgress.bottomAnchor, constant: 30).isActive = true
+        nextButton.bottomAnchor.constraint(equalTo: self.CurrentLabel.bottomAnchor,constant: 35).isActive = true
         
+        prveButton.bottomAnchor.constraint(equalTo: self.CurrentLabel.bottomAnchor,constant: 35).isActive = true
         prveButton.leftAnchor.constraint(equalTo: self.playerButton.leftAnchor,constant: -60).isActive = true
         prveButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
         prveButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
@@ -411,7 +411,7 @@ extension PlayerController {
     }
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         if section == 0 {
-            return 440
+            return 600
         } else {
             return 0
         }
